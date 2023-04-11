@@ -6,6 +6,8 @@ from transformers import GPT2TokenizerFast
 
 # openai.api_key = config.OPENAI_KEY
 openai.api_key = st.secrets["OPENAI_KEY"]
+USER_NAME = st.secrets["user_name"]
+PASSWORD = st.secrets["password"]
 
 if "is_logged_in" not in st.session_state:
     st.session_state.is_logged_in = False
@@ -44,7 +46,7 @@ def login():
     user_name = st.text_input('Username')
     password = st.text_input('Password', type='password')
     if st.button('Login'):
-        if user_name == 'admin' and password == 'admin':
+        if user_name == USER_NAME and password == PASSWORD:
             st.session_state.is_logged_in = True
             st.experimental_rerun()
         else:
