@@ -93,20 +93,23 @@ def generate_content():
     report = []
     res_box = st.empty()
     # Looping over the response
-    for resp in openai.ChatCompletion.create(model='gpt-4',
-                                        messages=[{'role': 'user', 'content': prompt}],
-                                        max_tokens=2400, 
-                                        temperature = 0.9,
-                                        stream = True):
-        # join method to concatenate the elements of the list 
-        # into a single string, 
-        # then strip out any empty strings
-        if "role" in resp['choices'][0]['delta']:
-            continue
-        if resp['choices'][0]['delta']:
-            report.append(resp['choices'][0]['delta']['content'])
-            st.session_state.result += report[-1]
-            res_box.markdown(f'{st.session_state.result}')
+    try:
+        for resp in openai.ChatCompletion.create(model='gpt-4',
+                                            messages=[{'role': 'user', 'content': prompt}],
+                                            max_tokens=2400, 
+                                            temperature = 0.9,
+                                            stream = True):
+            # join method to concatenate the elements of the list 
+            # into a single string, 
+            # then strip out any empty strings
+            if "role" in resp['choices'][0]['delta']:
+                continue
+            if resp['choices'][0]['delta']:
+                report.append(resp['choices'][0]['delta']['content'])
+                st.session_state.result += report[-1]
+                res_box.markdown(f'{st.session_state.result}')
+    except Exception as e:
+        st.error("Openai API Error: An error occurred while receiving data from OpenAI. Please try again later.")
     # Clear res_box
     res_box.empty()
 
