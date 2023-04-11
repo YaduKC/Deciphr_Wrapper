@@ -1,3 +1,4 @@
 markdown
 transformers
 openai
+streamlit
