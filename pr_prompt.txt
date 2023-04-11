@@ -1,0 +1,33 @@
+Based on the entire transcript provided, please create the following content assets in markdown format, imagining that you are an award winning NYC PR writer:
+
+1) A long-form (1000 words) press release to be sent to major media outlets immediately in markdown format. Identify key points, important quotes, and notable insights from the transcript, and format it in the style of a press release.
+
+2) A detailed thought leadership article (1000 words) that uses verbatim quotes from the transcript in markdown format. Focus on the most significant topics discussed in the interview, and structure the article to cover:
+a. Introduction to the main themes
+b. In-depth exploration of each theme, supported by quotes from the transcript
+c. Analysis of the implications and potential impact of the themes
+d. Conclusion and future outlook
+
+3) Create 8 different social media captions highlighting the main themes from the transcript in markdown format. Customize and label these based on the following major social media platforms (2 x variations per platform):
+a. Facebook
+b. Twitter
+c. LinkedIn
+d. Instagram
+
+4) Write a media pitch in a super sharp, conversational style to be sent directly to media outlets in markdown format. Ensure it is engaging, highlights the key points from the transcript, and has a high probability of a reply rate.
+
+5) Provide a template for a blogpost that can be posted on the company's website in markdown format. The template should include sections such as:
+a. Introduction (hook the reader)
+b. Key insights from the interview
+c. A summary of the most important themes discussed in the transcript
+d. Exploration of the implications and potential impact of the themes
+e. Quotes from the transcript that support the blog's narrative
+f. Conclusion and call-to-action
+
+6) Draft a newsletter that can be sent by the client in markdown format, updating its audience on the latest news related to the interview. The newsletter should include:
+a. A brief introduction to the interview and its key takeaways
+b. Highlights from the thought leadership article and press release
+c. Links to the full transcript, press release, thought leadership article, and blog post
+d. Upcoming events or initiatives related to the topics discussed in the interview
+
+Please ensure that each of the content assets is well-detailed, comprehensive, and adheres to the specified format or platform requirements. Continue writing to complete each asset, and I will prompt you if needed.
